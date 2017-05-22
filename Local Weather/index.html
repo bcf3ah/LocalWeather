@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+		<div class="container">
+	    <div class="row">
+	      <div class="col s6 offset-s3">
+	        <div class="center-align">
+	          <h1>L<i class="fa fa-sun-o" aria-hidden="true"></i>cal Weather</h1>
+	        </div>
+	        <div class="center-align">
+	          <h4>Your location: <span id='location'></span></h4>
+	          <div id="conditionsContainer">
+	            <hr />
+	            <h5 id='condition'></h5>
+	            <img src="" /><br />
+	            <h5 id="temp"></h5>
+	            <p id="toggle">°C or °F</p>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type='text/javascript'></script>
+		<script src="./index.js"></script>
+  </body>
+</html>
